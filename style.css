@@ -1,5 +1,6 @@
 .c-timestamp {
     float: right;
+    margin-right: 1em;
 }
 
 .c-message {
@@ -53,7 +54,7 @@
 
 .c-message__content .c-message__body {
     margin-top: 0;
-    padding-right: 3.5em;
+    padding-right: 5em;
 }
 
 .c-message--adjacent:hover .c-message__gutter {
