@@ -9,7 +9,7 @@
     padding-left: 12em;
 }
 
-.c-message__attachments {
+.c-message__content_header + .c-message__attachments {
     margin-top: 0;
 }
 
