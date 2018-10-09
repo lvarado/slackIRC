@@ -6,7 +6,11 @@
 .c-message {
     position: relative;
     padding: 0;
-    padding-left: 14em;
+    padding-left: 12em;
+}
+
+.c-message__attachments {
+    margin-top: 0;
 }
 
 .c-message--light .c-message__gutter {
@@ -16,7 +20,7 @@
 .c-message__gutter, .c-message__sender {
     position: absolute;
     left: 0;
-    width: 14em;
+    width: 12em;
 }
 
 .c-message__avatar.c-avatar {
@@ -26,7 +30,8 @@
 
 .c-message__sender {
     padding-left: 4.5em;
-    line-height: 1.25;
+    line-height: 1.15;
+    padding-right: 0.5em;
 }
 
 .c-message:not(.c-message--hover) .c-message__sender {
