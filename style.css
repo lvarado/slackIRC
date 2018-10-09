@@ -1,0 +1,75 @@
+.c-timestamp {
+    float: right;
+}
+
+.c-message {
+    position: relative;
+    padding: 0;
+    padding-left: 14em;
+}
+
+.c-message--light .c-message__gutter {
+    width: 4em;
+}
+
+.c-message__gutter, .c-message__sender {
+    position: absolute;
+    left: 0;
+    width: 14em;
+}
+
+.c-message__avatar.c-avatar {
+    width: 1.75em !important;
+    height: 1.75em !important;
+}
+
+.c-message__sender {
+    padding-left: 4.5em;
+    line-height: 1.25;
+}
+
+.c-message:not(.c-message--hover) .c-message__sender {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.c-message:not(.c-message--adjacent) {
+    min-height: 1.75em;
+    margin-top: 1.25em;
+}
+
+.c-message--light .c-message__content_header {
+    position: absolute;
+    left: 0;
+    right: 1em;
+    margin-top: 0.2em;
+}
+
+.c-message--light .c-message__content {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.c-message__content .c-message__body {
+    margin-top: 0;
+    padding-right: 3.5em;
+}
+
+.c-message--adjacent:hover .c-message__gutter {
+    width: 100%;
+    padding-right: 1em;
+}
+
+.c-message--adjacent.c-message--light {
+    padding-top: 0;
+    margin-bottom: .3em;
+}
+
+.c-message--adjacent .c-message__content .c-message__body {
+    margin-top: 0;
+}
+
+.c-message_list__unread_divider {
+    margin-top: 0.5em;
+}
