@@ -67,7 +67,7 @@
     padding-right: 1em;
 }
 
-.c-message--adjacent.c-message--light {
+.c-message--adjacent.c-message--light:not(.c-message--last) {
     padding-top: 0;
     margin-bottom: .3em;
 }
