@@ -63,8 +63,18 @@
 }
 
 .c-message--adjacent:hover .c-message__gutter {
-    width: 100%;
-    padding-right: 1em;
+    right: 1em;
+    left: auto;
+    padding-right: 0;
+}
+
+.c-message--adjacent:not(.c-message--hover) .c-timestamp {
+    line-height: 1;
+}
+
+.c-message--adjacent:hover .c-timestamp {
+    width: 5em;
+    margin-right: 1em;
 }
 
 .c-message--adjacent.c-message--light:not(.c-message--last) {
